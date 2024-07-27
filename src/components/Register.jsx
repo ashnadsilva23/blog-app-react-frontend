@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import NavBar from './NavBar'
 
 const Register = () => {
     const [input, setInput] = new useState(
@@ -66,7 +67,7 @@ axios.post("http://localhost:3030/signUp",newInput).then(
             <div class="card">
                 <div>
                     <div className="container">
-
+                        
                         <h2 align="center"><u>SignUp</u></h2>
 
                         <div className="row">
@@ -98,7 +99,7 @@ axios.post("http://localhost:3030/signUp",newInput).then(
                                         <button onClick={readValue} className="btn btn-success">Register</button>
                                     </div>
                                     <div className="col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                                        <a href="" className="btn btn-primary">Back to login</a>
+                                        <a href="/" className="btn btn-primary">Back to login</a>
                                     </div>
                                 </div>
 

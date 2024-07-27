@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavBar from './NavBar'
 
 const ViewAll = () => {
 
@@ -30,7 +31,7 @@ const ViewAll = () => {
             {fetchData()},[])
   return (
     <div>
-  
+        <NavBar/>
     <br></br>
     <div className="container">
         <div className="row">
