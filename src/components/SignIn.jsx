@@ -54,7 +54,7 @@ const SignIn = () => {
             <div class="card">
                 <div>
                     <div className="container">
-                        <h2 align="center"><u>SignUp</u></h2>
+                        <h2 align="center"><u>Sign In</u></h2>
                         <div className="row">
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <div className="row g-3">
